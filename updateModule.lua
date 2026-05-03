@@ -178,7 +178,8 @@ local json = [[
       "icon": "tips_icon",
       "text": "How to use ?",
       "support_text": "Break magplant to set X,Y coordinates and start."
-    }
+    }.
+    {"type": "divider"}
   ]
 }
 ]]
