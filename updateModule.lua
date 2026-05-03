@@ -23,8 +23,8 @@ local json = [[
       "icon": "Sort",
       "alias": "PlatID"
     }
-}
   ]
+},
     {
       "type": "slider",
       "text": "Delay Plant (ms)",
