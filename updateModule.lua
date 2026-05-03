@@ -79,25 +79,14 @@ local json = [[
       "alias": "CropID"
     },
     {
-      "type": "toggle_button",
-      "text": "Only Planting",
-      "alias": "PlantToggle",
-      "default": true
-    },
-    {
-      "type": "toggle_button",
-      "text": "Only Harvesting",
-      "alias": "HarvestToggle",
-      "default": true
-    },
-   {
-            "type": "dropdown",
-            "value": "[\"Plant\", \"Harvest\", \"Plant & Harvest\"]",
-            "default": 0,
-            "alias": "automation_mode",
-            "text": "Mode",
-            "description": "Select automation mode"
-    },
+  "type": "dropdown",
+  "value": "[\"Only Planting\", \"Only Harvesting\", \"Plant & Harvest\"]",
+  "default": 2,
+  "alias": "ModeToggle",
+  "text": "Mode",
+  "description": "Select automation mode"
+},
+    {"type":"toggle_button","text":"Start PTHT","alias":"PTHTToggle","default":false},
     {
       "type": "toggle_button",
       "text": "Start PTHT",
