@@ -90,6 +90,14 @@ local json = [[
       "alias": "HarvestToggle",
       "default": true
     },
+   {
+            "type": "dropdown",
+            "value": "[\"Plant\", \"Harvest\", \"Plant & Harvest\"]",
+            "default": 0,
+            "alias": "automation_mode",
+            "text": "Mode",
+            "description": "Select automation mode"
+    },
     {
       "type": "toggle_button",
       "text": "Start PTHT",
