@@ -49,7 +49,13 @@ local json = [[
   "menu": [
     {"type":"input_int","text":"Delay (ms)","default":"250","icon":"Timer","alias":"DelayADD"},
     {"type":"toggle","text":"Auto Set Koordinat","alias":"CekAdd","default":false},
-    {"type":"toggle_button","text":"Start Add Item","alias":"ADDToggle","default":false}
+    {"type":"toggle_button","text":"Start Add Item","alias":"ADDToggle","default":false},
+    {
+            "type": "labelapp",
+            "icon": "ThumbUpOffAlt",
+            "text": "Ability",
+            "description": "Extends player ability."
+}
   ]
 }
 ]]
