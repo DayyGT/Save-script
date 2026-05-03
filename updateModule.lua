@@ -23,6 +23,7 @@ local json = [[
       "icon": "Sort",
       "alias": "PlatID"
     }
+}
   ]
     {
       "type": "slider",
