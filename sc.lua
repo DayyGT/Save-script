@@ -17,7 +17,7 @@ local json = [[
     
     {
   "type": "dropdown",
-  "value": [\"Only Planting\", \"Only Harvesting\", \"Plant & Harvest\"],
+  "value": "[\"Only Planting\", \"Only Harvesting\", \"Plant & Harvest\"]",
   "default": 2,
   "alias": "ModeToggle",
   "text": "Mode",
