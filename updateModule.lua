@@ -5,6 +5,11 @@ local json = [[
   "description": "Advanced PTHT automation with vertical scan, retry harvest system and ultra-fast farming optimization.",
   "menu": [
     {
+            "type": "dialog",
+            "text": "Fast drop settings",
+            "support_text": "Click to open fast drop settings.",
+            "menu": [
+    {
       "type": "input_string",
       "text": "Koordinat Magplant (X,Y)",
       "default": "9,103",
@@ -17,7 +22,8 @@ local json = [[
       "default": "7520",
       "icon": "Sort",
       "alias": "PlatID"
-    },
+    }
+  ]
     {
       "type": "slider",
       "text": "Delay Plant (ms)",
