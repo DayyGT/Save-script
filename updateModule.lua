@@ -174,10 +174,10 @@ local json = [[
       "default": false
     },
     {
-      "type": "labelapp",
-      "icon": "ThumbUpOffAlt",
-      "text": "Ability",
-      "description": "Extends player ability."
+      "type": "tooltip",
+      "icon": "tips_icon",
+      "text": "How to use ?",
+      "support_text": "Break magplant to set X,Y coordinates and start."
     }
   ]
 }
