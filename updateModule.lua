@@ -86,7 +86,6 @@ local json = [[
   "text": "Mode",
   "description": "Select automation mode"
 },
-    {"type":"toggle_button","text":"Start PTHT","alias":"PTHTToggle","default":false},
     {
       "type": "toggle_button",
       "text": "Start PTHT",
